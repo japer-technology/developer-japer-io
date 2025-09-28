@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🌐 JAPER Technology Website
+    url: https://www.japer.technology
+    about: Visit our main website for product information and support
+  - name: 📚 API Documentation
+    url: https://developer.japer.io
+    about: Read the comprehensive API documentation
+  - name: 💬 Community Discussion
+    url: https://github.com/japer-technology/developer-japer-io/discussions
+    about: Ask and answer questions, share ideas, and engage with our community
+  - name: 🔒 Security Issues
+    url: https://github.com/japer-technology/developer-japer-io/security/advisories/new
+    about: Report security vulnerabilities privately

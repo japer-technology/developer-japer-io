@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.git/
+*.min.js
+*.min.css
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+CHANGELOG.md
+asset/
+.github/

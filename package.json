@@ -1,0 +1,60 @@
+{
+  "name": "developer-japer-io",
+  "version": "1.0.0",
+  "description": "Official public repository of resources for use with the JAPER Technology API",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js,.md",
+    "lint:fix": "eslint . --ext .js,.md --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "npm run test:examples",
+    "test:examples": "cd examples/node && npm test",
+    "prepare": "husky install || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japer-technology/developer-japer-io.git"
+  },
+  "keywords": [
+    "japer",
+    "api",
+    "security",
+    "encryption",
+    "validation",
+    "iot",
+    "device-management",
+    "authentication",
+    "sms",
+    "email",
+    "domain-validation"
+  ],
+  "author": "JAPER Technology Pty. Ltd.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/japer-technology/developer-japer-io/issues"
+  },
+  "homepage": "https://developer.japer.io",
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-markdown": "^5.0.0",
+    "husky": "^9.0.0",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "lint-staged": {
+    "*.{js,md,json,yml,yaml}": [
+      "prettier --write"
+    ],
+    "*.js": [
+      "eslint --fix"
+    ]
+  }
+}

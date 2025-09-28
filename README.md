@@ -1,6 +1,11 @@
 #  [developer-japer-io](https://developer.japer.io)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![AI](https://img.shields.io/badge/Assisted-Development-2b2bff?logo=openai&logoColor=white)](https://www.japer.technology)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![CI](https://github.com/japer-technology/developer-japer-io/actions/workflows/ci.yml/badge.svg)](https://github.com/japer-technology/developer-japer-io/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/japer-technology/developer-japer-io/actions/workflows/codeql.yml/badge.svg)](https://github.com/japer-technology/developer-japer-io/actions/workflows/codeql.yml)
+[![AI](https://img.shields.io/badge/Assisted-Development-2b2bff?logo=openai&logoColor=white)](https://www.japer.technology)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Code of Conduct](https://img.shields.io/badge/Code%20of%20Conduct-Contributor%20Covenant-blue.svg)](CODE_OF_CONDUCT.md)
 
 The official public repository of **resources** for use with the JAPER Technology API.
 
@@ -8,9 +13,16 @@ JAPER is a security-focused platform that helps developers manage devices, valid
 
 ## Getting Started
 
-1. Sign up for an account at [www.japer.technology](https://www.japer.technology/shop) and purchase your API key.
-2. Read the API documentation at [developer.japer.io](https://developer.japer.io) and understand **our** interface.
-3. Use this GitHub documentation to quick start your implementation.
+1. **Sign up** for an account at [www.japer.technology](https://www.japer.technology/shop) and purchase your API key.
+2. **Read the documentation** at [developer.japer.io](https://developer.japer.io) and understand **our** interface.
+3. **Explore examples** in this repository to quick start your implementation.
+4. **Join our community** by contributing or asking questions in [Discussions](https://github.com/japer-technology/developer-japer-io/discussions).
+
+### Prerequisites
+
+- API key from [JAPER Technology](https://www.japer.technology/shop)
+- Basic understanding of REST APIs
+- Your preferred programming language (we provide examples for Node.js, with more coming soon)
 
 ## API Overview
 
@@ -50,7 +62,42 @@ ping the API.
 
 ## Contributing and Feedback
 
-Contributions are welcome! Feel free to open issues or submit pull requests if you find problems or want to suggest improvements. For direct feedback, use the contact information on [developer.japer.io](https://developer.japer.io).
+We welcome contributions! 🎉
+
+- **Issues**: Report bugs or request features via [GitHub Issues](https://github.com/japer-technology/developer-japer-io/issues)
+- **Pull Requests**: Submit improvements via [Pull Requests](https://github.com/japer-technology/developer-japer-io/pulls)
+- **Discussions**: Ask questions or share ideas in [GitHub Discussions](https://github.com/japer-technology/developer-japer-io/discussions)
+- **Security**: Report vulnerabilities via our [Security Policy](SECURITY.md)
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) before contributing.
+
+For direct feedback, use the contact information on [developer.japer.io](https://developer.japer.io).
+
+## Development
+
+This repository uses modern development practices:
+
+- **GitHub Actions** for CI/CD
+- **ESLint** and **Prettier** for code quality
+- **Dependabot** for dependency updates
+- **CodeQL** for security scanning
+
+To contribute:
+
+```bash
+# Clone the repository
+git clone https://github.com/japer-technology/developer-japer-io.git
+cd developer-japer-io
+
+# Install dependencies
+npm install
+
+# Run linting
+npm run lint
+
+# Run tests
+npm test
+```
 
 ## License
 

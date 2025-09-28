@@ -1,8 +1,20 @@
 {
   "name": "japer-node-example",
   "version": "1.0.0",
+  "description": "Node.js example for JAPER API",
   "license": "MIT",
   "scripts": {
-    "start": "node ping.js"
+    "start": "node ping.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "japer",
+    "api",
+    "example",
+    "nodejs"
+  ],
+  "author": "JAPER Technology Pty. Ltd.",
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
